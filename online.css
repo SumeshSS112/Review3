@@ -1,0 +1,88 @@
+.contact-container {
+    background: url(https://img.freepik.com/free-photo/side-view-woman-posing-studio_23-2149600354.jpg?w=900&t=st=1684248641~exp=1684249241~hmac=d1fc82191b51471b8ffec33a5cdda81eb37ebaa88d3162821e8cfa0f0c7291b9);
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+.contact-info-container,
+.contact-form-container {
+    flex-basis: 40%;
+    height: 80%;
+    display: flex;
+}
+
+.contact-form,
+.contact-info {
+    margin: auto;
+}
+
+.contact-info {
+    color: rgba(255, 255, 255, 0.656);
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-input-container {
+    width: 90%;
+    text-align: center;
+}
+
+.input,
+.msg-input {
+    width: 60%;
+    margin-bottom: 10px;
+    background: rgba(96, 97, 95, 0.6);
+}
+
+.input {
+    height: 40px;
+    border: none;
+    color: aqua;
+    font-size: 16px;
+}
+
+.input:focus,
+textarea:focus {
+    outline: none;
+    background: rgba(96, 97, 95, 0.6);
+}
+
+textarea {
+    border: none;
+    color: rgb(244, 240, 240);
+    font-size: 16px;
+    padding: 10px;
+}
+
+input[type="email"],
+input[type="text"] {
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #ff6347; /* Changed the background color to a reddish shade */
+    color: #fff; /* Changed the text color to white */
+}
+
+input[type="submit"]:hover {
+    background: rgba(96, 97, 95, 0.6);
+}

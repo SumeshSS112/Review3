@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link{
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+.main-header{
+    background: url(https://t4.ftcdn.net/jpg/04/18/22/99/360_F_418229940_kGUrDlUICbF4Cwb7CvMFoPTD3rQZJWRu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100;
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+.logo{
+    font-weight: bolder;
+    color:rgb(5, 23, 8);
+    font-size: 35px;
+}
+.nav-link{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: rgb(139, 8, 8) ;
+    font-weight: bold;
+    transition: color .3s;
+}
+.nav-link:hover{
+    color: rgb(35, 30, 12);
+
+}
+.nav-item{
+    margin-left: 50px;
+}
+.main-heading{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+}
+.main-heading-focus{
+    font-weight:bold;
+    color: rgb(88, 125, 18);
+}
+.sub-heading{
+    font-size: 18px;
+    margin-top: 30px;
+    color: aliceblue;
+    text-align: right;
+}
+.hero-cta{
+    font-size: 24px;
+    padding: 20px 40px;
+    font-weight: bold;
+    display: inline-block;
+    background: rgb(214, 218, 210);
+    margin-top: 30px;
+}
+.main-container{
+    margin-top: 30px;
+}
+.main-card-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+.card-content{
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.card-img-container{
+     width: 500px;
+     height: 70%;
+     border-radius: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     position: relative;
+     overflow: hidden;
+}
+.card-img{
+    height: 80%;
+}
+.card-title{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+.card-span{
+    font-weight: normal;
+    display:block;
+}
+.banner-container{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px -1px 15px 3px rgba(0,0,0,0.75);
+}
+.banner-content-container{
+    text-align: right;
+}
+.banner-content{
+    padding: 0 50px;
+}
+.banner-img{
+    height: 100%;
+}
+.banner-title{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.banner-desc{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.banner-cta{
+    display: inline-block;
+    background: #333;
+    padding: 20px 30px;
+    font-size: 20px;
+    color:white;
+    transition: 0.3ss;
+}
+.banner-cta:hover{
+    background: #575656;
+}
+.contact-container{
+    height: 540px;
+    background: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-info-container,
+.contact-form-container{
+    flex-basis: 40%;
+    height: 80%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+}
+.contact-form,
+.contact-info{
+    margin: auto;
+}
+.contact-info{
+    color: white;
+}
+td{
+    vertical-align: top;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.contact-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-input-container{
+    width: 90%;
+    text-align: center;
+}
+.input,.msg-input{
+    width: 60%;
+    margin-bottom: 10px;
+    background: rgba(96,97,95,0.35);
+}
+.input{
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.input:focus,textarea:focus{
+    outline: none;
+    background: rgba(96,97,95,0.6);
+}
+textarea{
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+input[type="email"],
+input[type="text"]{
+    padding-left: 10px;
+}
+input[type="sumbit"]{
+    cursor: pointer;
+}
+input[type="sumbit"]:hover{
+    background: rgba(96,97,95,0.6);
+}
